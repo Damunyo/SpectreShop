@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Spectre Shop</title>
+    <link rel="icon" href="stuffs/Logo Final.png">
+    <STYLE TYPE="text/css">
+BODY { background: url(stuffs/bg2.png) fixed; background-size: cover;}
+</STYLE>
+  </head>
+  <body>
+
+    <div class="hardwere">
+      <div class="navBar">
+        <a href="contact.html">Contact Us</a>
+        <a href="product.html">Products</a>
+        <a href="team.html">About</a>
+        <a href="download.html">Download Now!</a>
+        <div class="logoNavBar">
+        <a href="index.html"><img src="stuffs/Textlogo.png"></a>
+      </div>
+    </div>
+    <div class="hardwareDesc">
+    <div class="slideshow">
+      <img name="Slide" width="30%" height="30%">
+    </div>
+    <h1>
+    Computers and Consoles are the life of a gamer.<br>
+    One can't just play on an old system used in the late 90's<br>
+    We have the latest technology the 21st century can provide.<br>
+    If you want to build a new gaming computer,<br>
+    we can hook you up with a powerful yet cheap list of parts you can afford.<br>
+    If you only want to play on  a console,<br>
+    our store can show you the latest consoles released like the ps5<br>
+    sold the the msrp.<br>
+    We got you covered if you need anything!<br><br><br>
+    Download the app to see more
+  </h1>
+  </div>
+
+
+      </div>
+      <script>
+      var i = 0;
+      var images = [];
+      var time = 2000;
+
+      images[0] = 'stuffs/gpu.png';
+      images[1] = 'stuffs/cpu.png';
+      images[2] = 'stuffs/mobo.png';
+
+      function changeImg() {
+        document.Slide.src = images[i];
+
+        if (i < images.length -1) {
+          i++;
+        } else {
+          i = 0;
+        }
+
+        setTimeout("changeImg()", time);
+      }
+
+    window.onload = changeImg;
+      </script>
+  </body>
+</html>

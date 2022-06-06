@@ -1,0 +1,666 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+}
+
+/* Front page */
+.bg {
+  background-image: url(stuffs/bg.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.logo {
+  position: absolute;
+  top: 3%;
+  left: 19%;
+  max-width: 61%;
+  margin-top: 45px;
+}
+
+.tagline{
+  font-size: 50px;
+  font-family: 'Dekko';
+  padding-top: 690px;
+  padding-left: 490px;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+               -1px -1px 0 #000;
+  position: fixed;
+}
+
+/* End of front page */
+
+
+/* Navbar */
+.navBar{
+  background: #8d2555;
+  position: relative;
+  width: 100%;
+  height: 10%;
+}
+
+.navBar a{
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  font-size: 250%;
+  font-family: 'Aldo the Apache';
+}
+
+.logoNavBar{
+  left: 0px;
+  top: 0px;
+  width: 70%;
+  height: auto;
+}
+
+.logoNavBar img{
+  position: absolute;
+  min-height: 15%;
+  width: 15%;
+  top: -20%;
+  left: 1%;
+}
+
+/* End of navbar */
+
+/* Products page */
+.body {
+  background-image: url(stuffs/bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.category {
+  color: white;
+  font-size: 52px;
+}
+
+.category a {
+  text-decoration: none;
+  color: white;
+}
+
+.category img{
+  height: 648px;
+  width: 400px;
+}
+
+.gmaes {
+  position: absolute;
+  left: 6%;
+  top: 50%;
+  font-family: 'Aldo the Apache';
+  font-size: 75px;
+}
+
+.gaymes{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.peripheral {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  font-family: 'Aldo the Apache';
+  font-size: 65px;
+}
+
+.peri{
+  margin-left: 730px;
+  margin-top: -790px;
+}
+
+.hardare {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  font-family: 'Aldo the Apache';
+  font-size: 65px;
+}
+
+.hard{
+  margin-left: 1350px;
+  margin-top: -790px;
+}
+
+.gameDesc h1{
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 28%;
+  left: 45%;
+  font-family: 'Dekko';
+}
+
+.peripheralDesc h1{
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 28%;
+  left: 40%;
+  font-family: 'Dekko';
+}
+
+.hardwareDesc h1{
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 28%;
+  left: 45%;
+  font-family: 'Dekko';
+}
+
+.gameDesc img {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.peripheralDesc img {
+  position: absolute;
+  top: 30%;
+  left: 2%;
+}
+
+.hardwareDesc img {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+/* End of Products page */
+
+
+/* The Team */
+.team{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+}
+
+.team h1 {
+  color: white;
+  font-size: 64px;
+}
+
+.team p {
+  color: white;
+  font-size: 48px;
+}
+
+/* End of The Team */
+
+
+/* start of download */
+
+.downloads img {
+  position: absolute;
+  max-width: 30%;
+  top: 20%;
+  left: 57%;
+}
+
+.btn {
+    margin-top: -450px;
+    margin-left: 950px;
+    background: #8d2555;
+    padding: 2em;
+    width: 18em;
+    box-shadow: black 10px 10px;
+    text-align: center;
+    font-size: 30px;   
+    font-family: 'Dekko';
+    color: white;
+}
+
+.phone{
+  padding-left: 350px;
+}
+
+#phone{
+  width: 33%;
+}
+
+.goog{
+  margin-top: -750px;
+  margin-left: 800px;
+  position: absolute;
+}
+
+/* end of downlaod */
+
+/* fades */
+.animated{
+  padding-top:75px;
+  margin-bottom:65px;
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateX(-20px);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+     opacity: 0;
+     transform: translateX(-20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+}
+
+.fadeInLeft {
+-webkit-animation-name: fadeInLeft;
+animation-name: fadeInLeft;
+} 
+
+@-webkit-keyframes fadeInRight {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateX(20px);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+     opacity: 0;
+     transform: translateX(20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateY(-20px);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+     opacity: 0;
+     transform: translateY(-20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+/* end of fades */
+
+/* abbout */
+.box1{ 
+  margin-top: -1020px;
+  margin-left: 150px;
+  background: #8d2555;
+  padding: 2em;
+  width: 35em;
+  box-shadow: black 10px 10px;
+  text-align: center;
+  font-size: 18px;   
+  font-family: 'Dekko';
+  color: white;
+  position: relative;
+}
+
+.box2{ 
+  margin-top: -800px;
+  margin-left: 1100px;
+  background: #8d2555;
+  padding: 2em;
+  width: 35em;
+  box-shadow: black 10px 10px;
+  text-align: center;
+  font-size: 18px;   
+  font-family: 'Dekko';
+  color: white;
+  position: relative;
+}
+
+.btn1{ 
+  margin-top: 900px;
+  margin-left: 670px;
+  background: rgb(230, 221, 221);
+  padding: 1em;
+  width: 20em;
+  box-shadow: black 10px 10px;
+  text-align: center;
+  font-size: 28px;   
+  font-family: 'Dekko';
+  color: #000;
+}
+
+/* creators */
+.box4{ 
+    margin-top: -60px;
+    margin-left: 550px;
+    background: #7c7979;
+    padding: 2em;
+    width: 25em;
+    box-shadow: black 10px 10px;
+    text-align: center;
+    font-size: 26px;   
+    font-family: 'Dekko';
+    color: white;
+    position: relative;
+    z-index: -1;
+}
+
+.box5{ 
+  margin-top: -30px;
+  margin-left: 88px;
+  background: rgb(124, 121, 121);
+  padding: 2em;
+  width: 25em;
+  box-shadow: black 10px 10px;
+  text-align: center;
+  font-size: 25px;   
+  font-family: 'Dekko';
+  color: white;
+  position: relative;
+  z-index: -1;
+}
+
+.box6{ 
+  margin-top: -30px;
+  margin-left: -80px;
+  background: rgb(124, 121, 121);
+  padding: 2em;
+  width: 25em;
+  box-shadow: black 10px 10px;
+  text-align: center;
+  font-size: 25px;   
+  font-family: 'Dekko';
+  color: white;
+  position: relative;
+  z-index: -1;
+}
+
+.box7{ 
+  margin-top: -50px;
+  margin-left: 60px;
+  background: rgb(124, 121, 121);
+  padding: 2em;
+  width: 25em;
+  box-shadow: black 10px 10px;
+  text-align: center;
+  font-size: 25px;   
+  font-family: 'Dekko';
+  color: white;
+  position: relative;
+  z-index: -1;
+}
+
+.box8{ 
+  margin-top: -50px;
+  margin-left: 200px;
+  background: rgb(124, 121, 121);
+  padding: 2em;
+  width: 25em;
+  box-shadow: black 10px 10px;
+  text-align: center;
+  font-size: 25px;   
+  font-family: 'Dekko';
+  color: white;
+  position: relative;
+  z-index: -1;
+}
+
+/* no repeat */
+#wow{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F906751.jpg&f=1&nofb=1"); 
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#lol{
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ftrumpwallpapers.com%2Fwp-content%2Fuploads%2FVaporwave-Wallpaper-14-1920-x-1080.jpg&f=1&nofb=1"); 
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+/* end of no repeat */
+
+/* circle pics */
+.pictures{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: -950px;
+  margin-left: 100px;
+}
+
+.pictures2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 40px;
+	flex-wrap: wrap;
+  margin-top: -30px;
+}
+
+.pictures3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 350px;
+	flex-wrap: wrap;
+  margin-top: 960px;
+  position: absolute;
+}
+
+.pictures4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: -130px;
+	flex-wrap: wrap;
+  margin-top: -150px;
+  position: absolute;
+}
+
+.pictures5{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: -130px;
+	flex-wrap: wrap;
+  margin-top: -150px;
+  position: absolute;
+}
+
+.pic-img{
+	border-radius: 5px;
+}
+.pictures .pic{
+	width: 16rem;
+	margin: 20px;
+}
+.active{
+	border-bottom: 1px solid #fff;
+}
+.pic-img1{
+	width: 100%;
+	height: 15rem;
+	background-image: url('01.jpg');
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+  margin-left: 285px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.pic-img2{
+	width: 100%;
+	height: 15rem;
+	background-image: url('02.jpg');
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+  margin-left: 280px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.pic-img3{
+	width: 100%;
+	height: 15rem;
+	background-image: url('03.jpg');
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+  margin-left: 110px;
+  margin-top: 500px;
+}
+
+.pic-img4{
+	width: 100%;
+	height: 15rem;
+	background-image: url('04.png');
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+  margin-left: 40px;
+  margin-top: 150px;
+}
+
+.pic-img5{
+	width: 100%;
+	height: 15rem;
+	background-image: url('05.jpg');
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+  margin-left: 100px;
+  margin-top: 1650px;
+}
+
+.contact{
+  position: relative;
+  border: solid;
+  border-radius: 15px;
+  background-color: #8d2555;
+  max-width: 35%;
+  left: auto;
+  right: auto;
+  height: 35%;
+  font-family: 'Dekko';
+  font-size: 30px;
+  top: -65%;
+  left: 31%;
+}
+
+.contact label{
+  color: white;
+  padding-left: 100px;
+}
+
+#email{
+  font-size: 18px;
+  margin-left: 46px;
+  width: 36%;
+}
+
+textarea{
+  position: relative;
+  margin-left: 35%;
+  font-size: 15px;
+  padding: 2px;
+}
+
+.contact p{
+  position: absolute;
+  color: white;
+  top: 38px;
+  left:73px
+}
+
+#submit{
+  font-size: 20px;
+  position: absolute;
+  left: 370px;
+  bottom: 30px;
+}

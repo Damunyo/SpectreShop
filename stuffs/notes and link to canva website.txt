@@ -1,0 +1,5 @@
+https://www.canva.com/design/DAE7hTGSoaY/M3Uev8caMVFsXtpsFWOCDw/edit?utm_content=DAE7hTGSoaY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+The peripherals, components, and games top up are links to the different web pages of our site. the transparent colors and text should have a slide in from top or fade in animation when the mouse is hovering over.
+
+The nav bar should also have a fade in animation when scrolling down from the first homepage( the one with the vaporwave background)
